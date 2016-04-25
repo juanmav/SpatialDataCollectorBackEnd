@@ -6,7 +6,6 @@
  */
 
 module.exports = {
-
   attributes: {
     name : {
       type: 'string'
@@ -17,10 +16,12 @@ module.exports = {
     schema: {
       type: 'json'
     },
+    form: {
+      type: 'json'
+    },
     records : {
       collection: 'record',
       via: 'datasource'
     }
   }
 };
-
